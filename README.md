@@ -2,6 +2,7 @@
 
 **PROBLEM STATEMENT**
 **BACKGROUND**
+
 Sometimes items cannot be shipped to certain zip codes, and the rules for these restrictions are stored as a series of ranges of 5 digit codes. For example if the ranges are:
 
 [94133,94133] [94200,94299] [94600,94699]
@@ -22,9 +23,13 @@ Then the output should be = [94133,94133] [94200,94399]
 
 
 **EXECUTION INSTRUCTIONS**
+
 Clone this repository
+
 Import the project into Eclipse or a preferred IDE
+
 Run the file ZipcodeProcessor.java as Java application
+
 To test with more inputs, please upload the input as csv file to the resources folder and refer the corresponding filename in ZipcodeProcessor.java
 
 **SAMPLE OUTPUT**
